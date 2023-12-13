@@ -31,3 +31,7 @@ yup
 
 ### https://nivo.rocks/components/
 @nivo/core @nivo/bar @nivo/pie @nivo/line @nivo/geo
+
+Link issue
+
+### https://stackoverflow.com/questions/77206218/react-pro-sidebar-v1-0-0-with-react-router-dom-v6-16-0-how-to-make-active-subme
