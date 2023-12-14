@@ -27,7 +27,7 @@ formik
 yup 
 
 ### https://fullcalendar.io/docs/initialize-es6
-@fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/lisst
+@fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/list @fullcalendar/react @fullcalendar/interaction
 
 ### https://nivo.rocks/components/
 @nivo/core @nivo/bar @nivo/pie @nivo/line @nivo/geo
