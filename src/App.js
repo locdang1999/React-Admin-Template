@@ -11,6 +11,10 @@ import Invoices from "./pages/invoices";
 import Form from "./pages/form";
 import Calendar from "./pages/calendar";
 import FAQ from "./pages/faq";
+import Bar from "./pages/bar";
+import Pie from "./pages/pie";
+import Line from "./pages/line";
+import Geography from "./pages/geography";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -21,9 +25,9 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <Sidebar />
+          <Sidebar isSidebar={isSidebar}/>
           <main className="content">
-            <Topbar />
+            <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/team" element={<Team />} />
@@ -32,6 +36,10 @@ function App() {
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/pie" element={<Pie />} />
+              <Route path="/line" element={<Line />} />
+              <Route path="/geography" element={<Geography />} />
             </Routes>
           </main>
         </div>
